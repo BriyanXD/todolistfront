@@ -1,0 +1,25 @@
+.containerForm{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.input{
+    background-color: rgb(235, 235, 235);
+    border: 0;
+    outline: 0;
+    color: black;
+    width: 80%;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.input:focus{
+    border-bottom: 1px solid rgb(37, 37, 37);
+}
+.button{
+    width: 60%;
+    height: 30px;
+    font-size: 17px;
+}
